@@ -1,0 +1,313 @@
+*, 
+*:after,
+*:before{
+    box-sizing: border-box;
+}
+ body{
+     background: #b1dbbd;
+ }
+.container {
+    background-color: #b1dbbd;
+    height: 500px;
+    width: 500px;
+}
+
+.face {
+  
+    height: 50px;
+    width: 50px;
+    background-color: #f1cbcd;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    border-radius: 20px 20px 100px 2px;
+}
+.moon{
+    height:80px;
+    width:80px;
+    background-color: transparent;
+    margin:auto;
+    position:absolute;
+    top:23px;
+    left:27px;
+    border-radius:50%;
+    box-shadow:12px 8px 0px 0px white;
+  }
+.eye{
+    background-color: black;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 30px;
+}
+.white{
+    height: 4px;
+    width: 4px;
+    background: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 1px;
+}
+.nose{
+    background-color: #f1cbcd;
+    height: 20px;
+    width: 20px;
+    border-radius:12px 10px 12px 8px;
+    position: absolute;
+    top: 18px;
+    left: 40px;
+
+}
+.eyebrow {
+    background: white;
+    height: 7px;
+    width: 24px;
+    border-radius: 10px;
+    position: absolute;
+    left: 25px;
+}
+.cap-white{
+    
+    height: 78px;
+    width: 70px;
+    background-color: transparent;
+    margin: auto;
+    position: absolute;
+    top: 107px;
+    left: 231px;
+    border-radius: 43px 11px 0 0;
+    box-shadow: -18px -18px 0px white;
+      
+}
+.cap-red{
+    height: 112px;
+    width: 100px;
+    background: transparent;
+    position: absolute;
+    left: 212px;
+    top: 88px;
+    box-shadow: -32px -24px 5px 0px red;
+    border-radius: 82px 22px 97px 0px;
+}
+.triangle-cap{
+    width: 0;
+	height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 50px solid #f11313;
+    transform: rotate(-101deg);
+    position: absolute;
+    left: 140px;
+    top: 108px;
+}
+.cap-ball{
+    background: white;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    left: 150px;
+    top: 130px;
+    border-radius: 50%;
+}
+.two{
+    top: 146px;
+}
+.beard{
+    border-radius: 68px 41px 16px 58px;
+    background: white;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 205px;
+    top: 145px;
+}
+.mouth{
+    background: red;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: 148px;
+    left: 259px;
+}
+.dress1{
+    
+    background: linear-gradient(red 80%, black 87%, red 10%);
+    height: 150px;
+    width: 150px;
+    position: relative;
+    top: 108px;
+    left: 160px;
+    border-radius: 70px 70px 10px 10px;
+}
+.gift-bag1{
+    
+    background: radial-gradient(#eacf9e,#caa667);
+    height: 180px;
+    width: 152px;
+    position: absolute;
+    z-index: 1;
+    top: 165px;
+    left: 53px;
+    border-radius: 119px 58px 75px 75px;
+    /* box-shadow: 0px -20px 0px white; */
+}
+.gift-gif img{
+    
+    
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    top: 138px;
+    left: 78px;
+    transform: rotate(-10deg);
+}
+.hand1{
+    
+    background: transparent;
+    height: 115px;
+    width: 48px;
+    position: absolute;
+    top: 181px;
+    left: 224px;
+    z-index: 1;
+    box-shadow: -37px -24px 0px #d81919;
+    border-radius: 82px 22px 97px 0px;
+    transform: rotate(-24deg);
+}
+.palm{
+    background: white;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 271px;
+    left: 204px;
+    z-index: 1;
+    border-radius: 10px 9px 9px 18px;
+}
+.hand2{
+    
+    background: #d81919;
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    top: 153px;
+    left: 264px;
+    border-radius: 10px 34px 12px 12px;
+}
+
+
+.snowfall {
+    height: 100vh;
+  }
+  .snow1 {
+    
+    background-repeat: repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left:0px;
+    bottom: 0px;
+    animation: flowershower1 10s infinite linear;
+    transform: rotate(-8deg);
+  }
+  
+  .snow2 {
+    background-repeat: repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left:0px;
+    bottom: 0px;
+    animation: flowershower2 10s infinite linear;
+    
+  }
+  
+  @keyframes flowershower1 {
+    0% {
+      background: url("image/snow-fall.png");
+      background-position: 0px 0px;
+      background-repeat: repeat;
+      
+    }
+    100% {
+      background: url("image/snow-fall.png");
+      background-position: 100px 650px;
+      background-repeat: repeat;
+    }
+  }
+  
+  
+  @keyframes flowershower2 {
+    0% {
+      background: url("image/petal-trans.png");
+      background-position: 0px -100px;
+      background-repeat: repeat;
+    }
+    100% {
+      background: url("image/petal-trans.png");
+      background-position: 0px 650px;
+      background-repeat: repeat;
+    }
+  }
+  .leg1{
+    
+    background: #d81919;
+    height: 100px;
+    width: 40px;
+    position: absolute;
+    top: 311px;
+    left: 205px;
+    border-radius: 5px 5px 16px 16px;
+  }
+  .leg2{
+    
+    background: #d81919;
+    height: 100px;
+    width: 40px;
+    position: absolute;
+    top: 311px;
+    left: 263px;
+    border-radius: 5px 5px 16px 16px;
+  }
+  .leg-foot1{
+    background: white;
+    height: 30px;
+    width: 40px;
+    position: absolute;
+    top: 71px;
+    border-radius: 10px 24px 9px 13px;
+  }
+  .leg-foot2{
+    background: white;
+    height: 30px;
+    width: 40px;
+    position: absolute;
+    top: 71px;
+    border-radius: 10px 24px 9px 13px;
+  }
+  .text{
+    position: absolute;
+    color: red;
+    margin-left: 369px;
+    margin-top: 29px;
+    font-family: fantasy;
+    
+  }
+  @media screen and (max-width: 500px) {
+    .text{
+        top: 500px;
+        position: absolute;
+        color: red;
+        left: 0;
+        margin-left: 0px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }  
+  }
