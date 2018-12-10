@@ -5,12 +5,17 @@
 }
  body{
      background: #b1dbbd;
+     display: grid;
+     justify-content: center;
  }
 .container {
     background-color: #b1dbbd;
     height: 500px;
     width: 500px;
+    position: relative;
+
 }
+
 
 .face {
   
@@ -19,7 +24,8 @@
     background-color: #f1cbcd;
     margin: auto;
     position: relative;
-    top: 100px;
+    top: 107px;
+    left: 6px;
     border-radius: 20px 20px 100px 2px;
 }
 .moon{
@@ -245,12 +251,12 @@
   
   @keyframes flowershower2 {
     0% {
-      background: url("image/petal-trans.png");
+      background: url("image/snow-fall.png");
       background-position: 0px -100px;
       background-repeat: repeat;
     }
     100% {
-      background: url("image/petal-trans.png");
+      background: url("image/snow-fall.png");
       background-position: 0px 650px;
       background-repeat: repeat;
     }
@@ -261,7 +267,7 @@
     height: 100px;
     width: 40px;
     position: absolute;
-    top: 311px;
+    top: 305px;
     left: 205px;
     border-radius: 5px 5px 16px 16px;
   }
@@ -271,7 +277,7 @@
     height: 100px;
     width: 40px;
     position: absolute;
-    top: 311px;
+    top: 305px;
     left: 263px;
     border-radius: 5px 5px 16px 16px;
   }
@@ -309,5 +315,12 @@
         display: flex;
         justify-content: center;
         width: 100%;
-    }  
+    }
+    .container {
+        transform: scale(0.6);
+        background-color: #b1dbbd;
+        height: 500px;
+        width: 500px;
+        position: relative;
+    } 
   }
